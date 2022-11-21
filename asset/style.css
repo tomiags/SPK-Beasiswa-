@@ -1,0 +1,46 @@
+.background-img{
+	background: url(../admin/assets/images/bgsmk.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.background-img::before{
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.signin{
+	background: #ffffff;
+	height: 100vh;
+	overflow: auto;
+	display: flex;
+	align-items: center;
+	margin-right: -15px; 
+}
+
+.signin-form{
+	width: 100vw;
+	max-height: 100vh;
+	padding: 2.5rem !important;
+}
+
+.logo{
+	color: #17a2b8;
+	font-size: 36px;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	letter-spacing: 3px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
